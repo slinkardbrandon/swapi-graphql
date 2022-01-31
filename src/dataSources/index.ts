@@ -6,8 +6,7 @@ export type DataSources = {
   starshipApi: StarshipApi;
 };
 
-export const dataSources = (): DataSources =>
-  ({
-    peopleApi: new PeopleApi(),
-    starshipApi: new StarshipApi(),
-  } as const);
+export const dataSources = (): DataSources => ({
+  peopleApi: new PeopleApi(),
+  starshipApi: new StarshipApi(),
+});
