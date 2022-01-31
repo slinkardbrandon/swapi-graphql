@@ -3,6 +3,8 @@
 Mostly experimental project to learn the construction of a GraphQL server
 and how the internals actually work together.
 
+> Note: This runs on [https://swapi.dev/](https://swapi.dev/)
+
 ## Running Locally
 
 1. Clone the repo.
